@@ -1,0 +1,38 @@
+.view{
+  
+   display: flex; 
+  /* flex-direction: row; */ 
+  flex-direction: row;
+  justify-content: space-between;
+} 
+.buttons{
+  margin-left: 30px;
+}
+.but1{
+  display: flex; 
+  flex-direction: column;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+/* .likes{
+  position: relative;
+  right: 280px;
+  top:240px;
+} */
+.descr{
+  font-weight: bold;
+  color:#1976d2;
+  margin-top: 70px;
+  margin-left:-90px;
+  box-sizing: border-box;
+
+}
+.rating{
+  position: relative;
+  right:10px;
+  font-weight: bold;
+  color:#1976d2;
+  margin-top: 130px;
+  margin-left:-30px;
+
+}
